@@ -10,5 +10,8 @@
   "keywords": [],
   "author": "airRnot <airrnot.dev@gmail.com>",
   "license": "MIT",
-  "packageManager": "pnpm@10.26.1"
+  "packageManager": "pnpm@10.26.1",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
 }
