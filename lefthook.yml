@@ -1,0 +1,12 @@
+pre-commit:
+  parallel: true
+  commands:
+    lint:
+      glob: '*.{js,ts,jsx,tsx}'
+      run: pnpm oxlint --type-aware --type-check --fix {staged_files} && pnpm eslint --fix {staged_files}
+      stage_fixed: true
+
+    format:
+      glob: '*.{js,ts,jsx,tsx,json,yml,yaml,md}'
+      run: pnpm oxfmt --no-error-on-unmatched-pattern {staged_files}
+      stage_fixed: true
