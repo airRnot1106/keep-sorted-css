@@ -2,16 +2,29 @@
   "name": "keep-sorted-css",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
-  "author": "airRnot <airrnot.dev@gmail.com>",
   "license": "MIT",
-  "packageManager": "pnpm@10.26.1",
+  "author": "airRnot <airrnot.dev@gmail.com>",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "lint": "oxlint --type-aware --type-check --fix && eslint --fix",
+    "format": "oxfmt",
+    "check": "npm-run-all lint format"
+  },
+  "dependencies": {
+    "eslint-plugin-command": "^3.4.0"
+  },
   "devDependencies": {
+    "@antfu/eslint-config": "^6.7.3",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-oxlint": "^1.36.0",
+    "npm-run-all": "^4.1.5",
+    "oxfmt": "^0.21.0",
+    "oxlint": "^1.36.0",
+    "oxlint-tsgolint": "^0.10.1",
     "typescript": "^5.9.3"
-  }
+  },
+  "packageManager": "pnpm@10.26.1"
 }
