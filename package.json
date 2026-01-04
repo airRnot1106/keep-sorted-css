@@ -1,10 +1,22 @@
 {
   "name": "keep-sorted-css",
-  "version": "0.0.1",
-  "description": "",
-  "keywords": [],
+  "version": "0.0.0",
+  "description": "Custom command for eslint-plugin-command to sort CSS properties",
+  "keywords": [
+    "css-in-js",
+    "eslint-plugin-command",
+    "sort"
+  ],
+  "homepage": "https://github.com/airRnot1106/keep-sorted-css#readme",
+  "bugs": {
+    "url": "https://github.com/airRnot1106/keep-sorted-css/issues"
+  },
   "license": "MIT",
   "author": "airRnot <airrnot.dev@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airRnot1106/keep-sorted-css.git"
+  },
   "files": [
     "dist"
   ],
