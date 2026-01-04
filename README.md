@@ -11,15 +11,15 @@ Custom command for [`eslint-plugin-command`](https://github.com/antfu/eslint-plu
 ## Installation
 
 ```bash
-npm install keep-sorted-css eslint-plugin-command
+npm install -D @airrnot/keep-sorted-css eslint-plugin-command
 ```
 
 ```bash
-yarn add keep-sorted-css eslint-plugin-command
+yarn add -D @airrnot/keep-sorted-css eslint-plugin-command
 ```
 
 ```bash
-pnpm add keep-sorted-css eslint-plugin-command
+pnpm add -D @airrnot/keep-sorted-css eslint-plugin-command
 ```
 
 In your flat config eslint.config.mjs:
