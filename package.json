@@ -1,5 +1,5 @@
 {
-  "name": "keep-sorted-css",
+  "name": "@airrnot/keep-sorted-css",
   "version": "0.0.0",
   "description": "Custom command for eslint-plugin-command to sort CSS properties",
   "keywords": [
