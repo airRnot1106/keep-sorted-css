@@ -1,6 +1,6 @@
-shellEmulator: true
-
 minimumReleaseAge: 2880
+
+shellEmulator: true
 
 trustPolicy: no-downgrade
 onlyBuiltDependencies:
