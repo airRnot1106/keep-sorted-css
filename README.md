@@ -31,10 +31,7 @@ import { defineConfig, globalIgnores } from 'eslint/config';
 import { keepSortedCss } from 'keep-sorted-css';
 
 const eslintConfig = defineConfig([
-  globalIgnores([
-    'out/**',
-    'build/**',
-  ]),
+  globalIgnores(['out/**', 'build/**']),
   command({
     commands: [...builtinCommands, keepSortedCss],
   }),
